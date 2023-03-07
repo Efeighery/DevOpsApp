@@ -43,5 +43,5 @@ jobs:
     steps:
       - run:
           name: deploy-application
-          command:
+          command: ssh -o StrictHostKeyChecking=no
 
